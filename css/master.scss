@@ -11,10 +11,10 @@ html{
   background:url(../img/invision.png) no-repeat center center fixed;
   background-repeat:no-repeat;
   background-size:cover;
-  width:100vw;
+  width:100%;
 }
 body{
-  width:100vw;
+  width:100%;
   box-sizing:border-box;
   .billboard{
     display:inline-block;
@@ -138,6 +138,7 @@ footer{
       text-decoration:none;
       width:10vw;
       h1{
+        width:10vw;
         line-height:5em;
         font-size:1em;
       }
